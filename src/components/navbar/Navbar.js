@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <Nav>
       <Logo to="/">
-        <i>{"<Lutfullah>"}</i> <span>recipe</span>
+        <i>{"<E.Özdemir>"}</i> <span>recipe</span>
       </Logo>
 
       <Hamburger onClick={() => setIsOpen(!isOpen)}>
@@ -19,7 +19,7 @@ const Navbar = () => {
       <Menu isOpen={isOpen}>
         <MenuLink to="/about">About</MenuLink>
         <MenuLink
-          to={{ pathname: "https://github.com/lutfullahcelenk" }}
+          to={{ pathname: "https://github.com/E-Ozdemir" }}
           target="_blank"
           rel = "noopener noreferrer"
         >

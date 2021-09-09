@@ -10,7 +10,7 @@ const APP_ID = "bfed7119";
 const APP_KEY = "5a5e7ea6e1cafca033f2fdd63962efcb";
 
 const Home = () => {
-  const [query, setQuery] = useState("apple");
+  const [query, setQuery] = useState();
   const [recipes, setRecipes] = useState();
   const [meal, setMeal] = useState(mealTypes[0].toLowerCase());
 

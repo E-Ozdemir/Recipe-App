@@ -6,8 +6,11 @@ import RecipeCardComp from "./RecipeCardComp";
 
 
 const mealTypes = ["Breakfast", "Lunch", "Dinner", "Snack", "Teatime"];
-const APP_ID = "bfed7119";
-const APP_KEY = "5a5e7ea6e1cafca033f2fdd63962efcb";
+
+
+const APP_ID = process.env.REACT_APP_APP_ID;
+const APP_KEY = process.env.REACT_APP_APP_KEY;
+// console.log(APP_ID, APP_KEY);
 
 const Home = () => {
   const [query, setQuery] = useState();
